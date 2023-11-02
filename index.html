@@ -10,8 +10,12 @@
     <link rel="shortcut icon" href="./img/icon-logo.svg" type="image/x-icon">
     <title>Gitpod</title>
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./libs/jquery/jquery-3.7.1.js"></script>
+    <script>$(function() {
+        $('.inform').click(function(){
+           $('html, body').animate({scrollTop:0}, 'slow');
+       });
+    });</script>
    
 </head>
 <body>
