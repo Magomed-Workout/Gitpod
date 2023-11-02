@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icon-logo.svg" type="image/x-icon">
+    <title>Gitpod</title>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+   
+</head>
+<body>
+    <header class="header">
+        <a href="#"><div class="logo" title="Главная"></div></a>
+
+        <ul class="nav-bar">
+            <a href="#" class="features"><li>Features</li></a>
+            <a href="#" class="pricing"><li>Pricing</li></a>
+            <a href="#" class="blog"><li >Blog</li></a>
+            <a href="#" class="docs"><li >Docs</li></a>
+            <a href="#" class="changelog"><li>Changelog</li></a>
+            <a href="#" class="hiring"><li>We're hiring <span id="star">*</span></li></a>
+            <div class="dropdown">
+                <img src="./img/menu.svg" class="dropbtn" loading="lazy" title="Меню">
+                <div class="dropdown-content">
+                    <ul class="dropdown-nav">
+                        <a href="#"><li>Features</li></a>
+                        <a href="#"><li>Pricing</li></a>
+                        <a href="#"><li>Blog</li></a>
+                        <a href="#"><li>Docs</li></a>
+                        <a href="#"><li>Changelog</li></a>
+                        <a href="#"><li>We're hiring <span id="star">*</span></li></a>
+                    </ul>
+                </div>
+            </div>
+        </ul>
+
+        <a href="#" class="login">Login</a>
+    </header>
+    
+    <main class="main">
+        <section class="container">
+            <div class="section-left">
+                <h1 class="title">Always<br>Ready to Code.</h1>
+                <p class="description">Spin up fresh, automated dev environments<br>for each task, in the cloud, in seconds.</p>
+                <div class="btn-info">
+                    <a href="#" class="btn">Try Now</a>
+                    <p class="btn-description">Open a workspace.<br>Start from any Git context.</p>
+                </div>
+
+               <div class="icon-company">
+                    <div class="git-lab"></div>                    
+                    <div class="git-hub"></div>
+                    <div class="bitbucket"></div>                    
+               </div>
+            </div>
+
+            <div class="section-right"></div>
+        </section>
+
+        <section class="container-1">
+            <div class="project">
+                <p class="description-project">Select project,<br><span class="text-transform">check dependencies, checkout branch, view<br>readme.txt, install tools, run build, run test,</span> <br>start coding.</p>
+            </div>
+        </section>
+
+        <section class="container-2">
+            <div class="box">
+                 <div class="box-section-left">
+                    <h2 class="box-title">Think CI/CD for dev environments</h2>
+                    <p class="box-description">We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
+                    <div class="box-btn">
+                        <a href="#" class="btn-more">More on prebuilds</a>
+                        <a href="#" class="btn-document">Documentation</a>
+                    </div>
+                 </div>
+
+                 <div class="box-section-right"></div>
+            </div>
+        </section>
+
+        <section class="container-3">
+            <h2 class="title-cont-3">Remote-first. Secure by design.</h2>
+            <div class="code-img"></div>
+            <p class="cont-3-description">You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.</p>
+            <div class="browsers-btns">
+                <div class="btn-ends">
+                    <div class="border-btn">
+                        <div class="background-btn">
+                            <a href="#" style="display: flex;">
+                                <div class="chrome"></div>
+                                <p class="btn-chrome">Chrome Extension</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-ends">
+                    <div class="border-btn">
+                        <div class="background-btn">
+                            <a href="#" style="display: flex;">
+                                <div class="firefox"></div>
+                                <p class="btn-firefox">Firefox Extension</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+        <section class="container-4">
+            <h2 class="cont-4-title">Get started now</h2>
+
+            <div class="block-flex">
+                <div class="block-1">
+                    <h3 class="block-1-title">Connect Git repository</h3>
+                    <p class="block-1-description">Select a Git provider to start with an existing project from any Git context.</p>
+                    
+                    <div class="background-link">
+                        <a href="#" class="box-link">
+                            <div class="git-lab-2"></div>
+                            <p class="btn-info-0">Continue with GitLab</p>
+                        </a>
+                    </div>
+    
+                    <div class="background-link">
+                        <a href="#" class="box-link-1">
+                            <div class="git-hub-2"></div>
+                            <p class="btn-info-1">Continue with GitHub</p>
+                        </a>
+                    </div>
+    
+                    <div class="background-link">
+                        <a href="#" class="box-link-2">
+                            <div class="bitbucket-2"></div>
+                            <p class="btn-info-2">Continue with Bitbucket</p>
+                        </a>
+                    </div>
+                    <p class="info">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                    <p class="info-git">gitpod.io/#</p>
+                </div>
+                
+                <div class="block-2">
+                    <h2 class="block-2-title">Launch an example workspace</h2>
+                    <p class="block-2-description">Dive into one of our example workspaces</p>
+                
+                    <div class="languages">
+                        <div class="lang-background">
+                            <div class="lang-img">
+                                <div class="typescript"></div>
+                                <p class="language-description">Node or TypeScript</p>
+                            </div>
+                            <a href="#" class="launch">Launch workspace</a>
+                        </div>
+
+                        <div class="lang-background">
+                            <div class="lang-img">
+                                <div class="python"></div>
+                                <p class="language-description">Python</p>
+                            </div>
+                            <a href="#" class="launch">Launch workspace</a>
+                        </div>
+
+                        <div class="lang-background">
+                            <div class="lang-img">
+                                <div class="go"></div>
+                                <p class="language-description">Go</p>
+                            </div>
+                            <a href="#" class="launch">Launch workspace</a>
+                        </div>
+                        
+                        <div class="lang-background">
+                            <div class="lang-img">
+                                <div class="rust"></div>
+                                <p class="language-description">Rust</p>
+                            </div>
+                            <a href="#" class="launch">Launch workspace</a>
+                        </div>
+
+                        <div class="lang-background">
+                            <div class="lang-img">
+                                <div class="java"></div>
+                                <p class="language-description">Java</p>
+                            </div>
+                            <a href="#" class="launch">Launch workspace</a>
+                        </div>
+
+                        <div class="lang-background">
+                            <div class="lang-img">
+                                <div class="svelte"></div>
+                                <p class="language-description">Svelte</p>
+                            </div>
+                            <a href="#" class="launch">Launch workspace</a>
+                        </div>
+
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-nav">
+            <ul class="nav">
+                <h3>Gitpod</h3>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Features</li></a>
+                <a href="#"><li>Pricing</li></a>
+                <a href="#"><li>Changelog</li></a>
+                <a href="#"><li>Self-Hosted</li></a>
+                <a href="#"><li style="line-height: 25px;">Gitpod vs GitHub<br>Codespaces</li></a>
+                <a href="#"><li>Status</li></a>
+            </ul>
+            
+            <ul class="nav">
+                <h3>Developer</h3>
+                <a href="#"><li>Getting started</li></a>
+                <a href="#"><li>Screencasts</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>Documentation</li></a>
+                <a href="#"><li>Report a bug</li></a>
+                <a href="#"><li>Community</li></a>
+            </ul>
+            
+            <ul class="nav">
+                <h3>Company</h3>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Careers<span id="star">*</span></li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Media Kit</li></a>
+               
+            </ul>
+
+            <ul class="nav">
+                <h3>Legal</h3>
+                <a href="#"><li>Imprint</li></a>
+                <a href="#"><li>Terms of Service</li></a>
+                <a href="#"><li>Privacy Policy</li></a>
+            </ul>
+        </section>
+
+        <hr class="line">
+
+        <div class="footer-info">
+            <a href="#"><div class="inform"></div></a>
+            <div class="icon-social-network">
+                <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currenColor" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM11.6406 9.75375L11.6658 10.169L11.2461 10.1181C9.71843 9.92323 8.38383 9.26226 7.25067 8.15216L6.69668 7.60135L6.55399 8.0081C6.25181 8.91482 6.44487 9.87239 7.0744 10.5164C7.41015 10.8723 7.33461 10.9232 6.75544 10.7113C6.55399 10.6435 6.37772 10.5927 6.36093 10.6181C6.30218 10.6774 6.50363 11.4486 6.66311 11.7536C6.88134 12.1773 7.32621 12.5925 7.81305 12.8383L8.22435 13.0332L7.73751 13.0417C7.26746 13.0417 7.25067 13.0501 7.30103 13.2281C7.46891 13.7789 8.13201 14.3636 8.87066 14.6178L9.39108 14.7958L8.93781 15.067C8.26631 15.4568 7.4773 15.6771 6.68829 15.694C6.31057 15.7025 6 15.7364 6 15.7618C6 15.8466 7.02404 16.3211 7.61999 16.5075C9.40786 17.0584 11.5315 16.8211 13.1263 15.8805C14.2595 15.211 15.3926 13.8806 15.9214 12.5925C16.2068 11.9062 16.4922 10.652 16.4922 10.0503C16.4922 9.66054 16.5174 9.60969 16.9874 9.14362C17.2644 8.87245 17.5246 8.57586 17.575 8.49112C17.6589 8.33011 17.6505 8.33011 17.2224 8.47417C16.509 8.72839 16.4083 8.6945 16.7608 8.31317C17.021 8.042 17.3316 7.5505 17.3316 7.40645C17.3316 7.38102 17.2057 7.42339 17.063 7.49966C16.9119 7.5844 16.5761 7.71151 16.3243 7.78778L15.8711 7.93184L15.4598 7.65219C15.2331 7.49966 14.9142 7.33018 14.7463 7.27934C14.3182 7.1607 13.6635 7.17765 13.2774 7.31323C12.2282 7.69456 11.5651 8.67755 11.6406 9.75375Z"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currenColor" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M12.0575 6.36076e-06C9.19512 -0.00296524 6.42524 1.03535 4.24425 2.92889C2.06326 4.82242 0.61373 7.4474 0.155424 10.3334C-0.302881 13.2194 0.259995 16.1778 1.74318 18.6784C3.22637 21.179 5.53292 23.0584 8.24948 23.9798C8.85581 24.0931 9.07024 23.7079 9.07024 23.3831C9.07024 23.0584 9.07024 22.3182 9.07024 21.291C5.70585 22.0387 4.996 19.637 4.996 19.637C4.77281 18.8926 4.29863 18.2531 3.65764 17.8319C2.57068 17.0766 3.74637 17.0766 3.74637 17.0766C4.1274 17.1316 4.49118 17.2744 4.81017 17.4942C5.12916 17.7141 5.395 18.0052 5.58754 18.3455C5.75115 18.6485 5.97172 18.9155 6.23661 19.1312C6.5015 19.347 6.80549 19.5071 7.13113 19.6026C7.45677 19.698 7.79765 19.7268 8.13422 19.6874C8.47079 19.6479 8.79642 19.541 9.09242 19.3726C9.13883 18.7513 9.40107 18.1674 9.83185 17.7262C7.15513 17.4165 4.34531 16.3591 4.34531 11.684C4.32693 10.4627 4.76906 9.28099 5.58015 8.38349C5.21891 7.3216 5.26113 6.15988 5.69846 5.12828C5.69846 5.12828 6.71147 4.79596 9.01109 6.38958C10.9858 5.83579 13.0701 5.83579 15.0448 6.38958C17.3444 4.79596 18.35 5.12828 18.35 5.12828C18.7935 6.14897 18.8462 7.30235 18.4979 8.36083C19.309 9.25834 19.7511 10.4401 19.7328 11.6614C19.7328 16.3893 16.9156 17.4241 14.2314 17.7035C14.5192 17.999 14.7415 18.3543 14.8831 18.7452C15.0247 19.1361 15.0824 19.5536 15.0522 19.9693C15.0522 21.6158 15.0522 22.9451 15.0522 23.3454C15.0522 23.7456 15.2666 24.0553 15.8804 23.9345C18.566 22.9888 20.838 21.1041 22.295 18.6132C23.752 16.1223 24.3002 13.1856 23.8428 10.3219C23.3854 7.45814 21.9518 4.85167 19.7953 2.96295C17.6388 1.07422 14.8982 0.024771 12.0575 6.36076e-06Z"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currenColor" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 11.7908C0 5.2781 5.48155 0 11.9919 0C18.4953 0 23.7804 5.48618 23.7804 11.9965C23.7804 18.5069 18.5 23.9884 11.9896 23.9884L0 24V11.7908ZM5.8306 8.13398C7.14804 5.9215 9.53234 4.56533 12.1074 4.56381H12.1143C15.0968 4.56526 17.7792 6.37901 18.8915 9.14636C20.0038 11.9137 19.3228 15.0793 17.1709 17.1445C15.019 19.2096 11.8281 19.7599 9.1088 18.5347L4.36012 19.6074L5.68254 15.3535C4.45692 13.0889 4.51317 10.3465 5.8306 8.13398Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
