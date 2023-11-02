@@ -1437,7 +1437,6 @@ svg:hover {
         width: 44vw;
         height: 5.5vw;
     }
-
 }
 @media screen and (max-width:400px) {
     .main {
@@ -1587,10 +1586,6 @@ svg:hover {
         padding: 10px 5px;
     }
 
-    .footer {
-        padding: 50px;
-    }
-
     .line {
         width: 76vw;
     }
@@ -1599,7 +1594,6 @@ svg:hover {
         width: 46vw;
         height: 6.5vw;
     }
-    
 }
 
 @media screen and (max-width:320px) {
