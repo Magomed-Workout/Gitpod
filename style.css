@@ -73,7 +73,7 @@ html, body {
     background-color: #27241d;   
 }
 
-.main {
+.main{
     margin: 0 90px;
 }
 
@@ -84,6 +84,12 @@ html, body {
     align-items: center;
     margin-top: 60px;
     margin-bottom: 20px;
+    opacity: 0;
+}
+
+.container.container-show {
+    opacity: 1;
+    transition: opacity 2s;
 }
 
 .title {
