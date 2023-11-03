@@ -22,7 +22,7 @@ html, body {
 
 .header.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .logo {
@@ -95,7 +95,7 @@ html, body {
 
 .container.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .title {
@@ -177,7 +177,7 @@ html, body {
 
 .container-1.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .project {
@@ -203,7 +203,7 @@ html, body {
 
 .container-2.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .box {
@@ -273,7 +273,7 @@ html, body {
 
 .container-3.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .title-cont-3 {
@@ -358,7 +358,7 @@ html, body {
 
 .container-4.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .cont-4-title {
@@ -626,7 +626,7 @@ html, body {
 
 .footer.container-show {
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .footer-nav {
