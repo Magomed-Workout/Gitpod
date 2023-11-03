@@ -294,6 +294,14 @@ html, body {
     background-color: #00ffb3;
 }
 
+.link-chrome {
+    display: flex;
+}
+
+.link-firefox {
+    display: flex;
+}
+
 .btn-chrome, .btn-firefox {
     color: #12100C;
     font-weight: 700;
@@ -1211,7 +1219,7 @@ svg:hover {
         z-index: 1;
     }
 
-    .dropdown-content a:hover {background-color: #ddd; }
+    .dropdown-content a:hover {background-color: #ddd;}
   
     .dropdown-content a {
         color: #12100C;
@@ -1343,18 +1351,25 @@ svg:hover {
         font-size: 23px;
     }
 
+    .btn-info {
+        flex-direction: column;
+    }
+
     .btn {
-        font-size: 20px;
-        padding: 17px 20px;
+        font-size: 24px;
+        padding: 17px 50px;
+        margin-bottom: 20px;
+        margin-right: 0;
     }
 
     .btn-description {
-        font-size: 20px;
+        font-size: 24px;
+        text-align: center;
     }
 
     .git-lab, .git-hub, .bitbucket {
-        width: 8vw;
-        height: 8vw;
+        width: 9vw;
+        height: 9vw;
     }
 
     .project {
@@ -1371,8 +1386,15 @@ svg:hover {
         font-size: 21px;
     }
 
-    .btn-more, .btn-document {
-        font-size: 18px;
+    .box-btn {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .btn-more {
+        margin-bottom: 15px;
+        margin-right: 0;
+        font-size: 20px;
     }
 
     .title-cont-3 {
@@ -1400,7 +1422,11 @@ svg:hover {
     }
 
     .background-btn {
-        padding: 10px 100px;
+        padding: 10px 40px;
+    }
+
+    .link-chrome, .link-firefox {
+        justify-content: center;
     }
 
     .chrome, .firefox {
@@ -1437,12 +1463,10 @@ svg:hover {
         width: 44vw;
         height: 5.5vw;
     }
+
 }
-@media screen and (max-width:400px) {
-    .main {
-        margin: 0px 37px;
-    }
-    
+
+@media screen and (max-width:430px) {
     .header {
         margin: 25px 20px;
     }
@@ -1452,84 +1476,41 @@ svg:hover {
         height: 10vw;
     }
 
-    .section-right {
-        width: 82vw;
-        height: 93vw;
-    }
-
     .title {
-        font-size: 40px;
+        font-size: 47px;
     }
 
-    .description {
-        font-size: 20px;
-    }
-
-    .btn-info {
-        flex-direction: column;
-    }
-
-    .btn {
-        font-size: 20px;
-        padding: 17px 50px;
-        margin-bottom: 20px;
-        margin-right: 0;
-    }
-
-    .btn-description {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .git-lab, .git-hub, .bitbucket {
-        width: 9vw;
-        height: 9vw;
+    .section-right {
+        width: 80vw;
+        height: 87vw;
     }
 
     .project {
-        font-size: 40px;
+        font-size: 43px;
     }
 
     .box-section-right {
         width: 85vw;
         height: 82vw;
-        margin: 0 -10px;
-    }
-
-    .box-description {
-        font-size: 19px;
-    }
-
-    .box-btn {
-        flex-direction: column;
-        display: flex;
-    }
-
-    .btn-more {
-        margin-bottom: 15px;
-        margin-right: 0;
-    }
-
-    .title-cont-3 {
-        font-size: 35px;
+        margin: 0 auto;
     }
 
     .code-img {
-        width: 86vw;
-        height: 62vw;
-    }
-
-    .background-btn {
-        padding: 10px 50px;
+        width: 80vw;
+        height: 59vw;
     }
 
     .chrome, .firefox {
-        width: 8.5vw;
+        width: 9.5vw;
         height: 6.5vw;
     }
 
-    .cont-4-title {
-        font-size: 40px;
+    .box-link, .box-link-1, .box-link-2 {
+        padding: 13px 40px;
+    }
+
+    .git-lab-2, .git-hub-2, .bitbucket-2 {
+        width: 11.5vw;
     }
 
     .block-1 {
@@ -1544,13 +1525,6 @@ svg:hover {
         font-size: 20px;
     }    
 
-    .box-link, .box-link-1, .box-link-2 {
-        padding: 13px 40px;
-    }
-
-    .git-lab-2, .git-hub-2, .bitbucket-2 {
-        width: 11.5vw;
-    }
 
     .info, .info-git {
         font-size: 20px;
@@ -1593,6 +1567,108 @@ svg:hover {
     .inform {
         width: 46vw;
         height: 6.5vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main {
+        margin: 0px 37px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .project {
+        font-size: 40px;
+    }
+
+    .box-section-right {
+        margin: 0 -10px;
+    }
+
+    .box-description {
+        font-size: 19px;
+    }
+
+    .title-cont-3 {
+        font-size: 35px;
+    }
+
+    .code-img {
+        width: 86vw;
+        height: 62vw;
+    }
+
+    .cont-4-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .logo {
+        width: 45vw;
+        height: 12.5vw;
+    }
+
+    .section-right {
+        width: 96vw;
+        height: 101vw;
+        margin: 0 -27px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .project {
+        font-size: 35px;
+    }
+
+    .box-section-right {
+        width: 87vw;
+        height: 85vw;
+        margin: 0 -17px;
+    }
+
+    .code-img {
+        width: 94vw;
+        height: 64vw;
+        margin: 0 -25px;
+    }
+
+    .background-btn {
+        padding: 10px 27px;
+    }
+
+    .chrome, .firefox {
+        width: 9.5vw;
+        height: 7.5vw;
+    }
+
+    .cont-4-title {
+        font-size: 37px;
+    }
+
+    .container-4 {
+        margin: 0 -35px 150px;
+    }
+
+    .footer-info {
+        flex-direction: column-reverse;
+    }
+
+    .icon-social-network {
+        margin-bottom: 15px;
+    }
+
+    .inform {
+        width: 55vw;
+        height: 7.5vw;
     }
 }
 
@@ -1699,14 +1775,6 @@ svg:hover {
 
     .footer {
         padding: 30px;
-    }
-
-    .footer-info {
-        flex-direction: column-reverse;
-    }
-
-    .icon-social-network {
-        margin-bottom: 15px;
     }
 
     .inform {
