@@ -28,8 +28,8 @@ html, body {
 .logo {
     background-image: url(./img/logo.svg);
     background-repeat: no-repeat;
-    width: 11vw;
-    height: 2.3vw;
+    width: 135px;
+    height: 45px;
 }
 
 .dropdown {
@@ -662,8 +662,8 @@ html, body {
 .inform {
     background-image: url(./img/footer-info.svg);
     background-repeat: no-repeat;
-    width: 10vw;
-    height: 1.3vw;
+    width: 175px;
+    height: 25px;
 }
 
 .icon-social-network {
@@ -682,11 +682,6 @@ svg:hover {
 }
 
 @media screen and (max-width:1600px) {
-    .logo {
-        width: 11vw;
-        height: 2.7vw;
-    }
-    
     .section-right {
         width: 42vw;
         height: 42vw;
@@ -737,18 +732,9 @@ svg:hover {
     .line {
         width: 63vw;
     }
-
-    .inform {
-        width: 15vw;
-        height: 2vw;
-    }
 }
 
 @media screen and (max-width:1440px) {
-    .logo {
-        height: 3vw;
-    }
-    
     .section-right {
         width: 45vw;
         height: 47vw;
@@ -939,11 +925,6 @@ svg:hover {
         margin: 0px 180px;
     }
     
-    .logo {
-        width: 14vw;
-        height: 4vw;
-    }
-    
     .nav-bar {
         font-size: 18px;
     }
@@ -1085,11 +1066,6 @@ svg:hover {
     .line {
         width: 82vw;
     }
-
-    .inform {
-        width: 20vw;
-        height: 3vw;
-    }
 }
 
 @media screen and (max-width:1024px) {
@@ -1127,11 +1103,6 @@ svg:hover {
         margin: 0px 130px;
     }
     
-    .logo {
-        width: 16vw;
-        height: 5vw;
-    }
-
     .features, .pricing, .blog, .docs, .changelog, .hiring {
         margin-right: 25px;
     }
@@ -1168,10 +1139,6 @@ svg:hover {
 
     .header {
         margin: 25px 25px;
-    }
-
-    .logo {
-        width: 18vw;
     }
 
     .features, .pricing, .blog, .docs, .changelog, .hiring {
@@ -1224,11 +1191,6 @@ svg:hover {
 @media screen and (max-width:700px) {
     .header {
         margin: 25px 40px;
-    }
-
-    .logo {
-        width: 22vw;
-        height: 7vw;
     }
 
     .nav-bar {
@@ -1367,18 +1329,8 @@ svg:hover {
     .line {
         width: 86vw;
     }
-
-    .inform {
-        width: 30vw;
-        height: 5vw;
-    }
 }
-@media screen and (max-width:500px) {
-    .logo {
-        width: 29vw;
-        height: 9vw;
-    }
-    
+@media screen and (max-width:500px) {  
     .section-right {
         background-image: url(./img/Rectangle-mobile.png);
         width: 65vw;
@@ -1500,22 +1452,11 @@ svg:hover {
     .line {
         width: 79vw;
     }
-
-    .inform {
-        width: 44vw;
-        height: 5.5vw;
-    }
-
 }
 
 @media screen and (max-width:430px) {
     .header {
         margin: 25px 20px;
-    }
-
-    .logo {
-        width: 40vw;
-        height: 10vw;
     }
 
     .title {
@@ -1605,11 +1546,6 @@ svg:hover {
     .line {
         width: 76vw;
     }
-
-    .inform {
-        width: 46vw;
-        height: 6.5vw;
-    }
 }
 
 @media screen and (max-width:400px) {
@@ -1652,11 +1588,6 @@ svg:hover {
 }
 
 @media screen and (max-width:350px) {
-    .logo {
-        width: 45vw;
-        height: 12.5vw;
-    }
-
     .section-right {
         width: 96vw;
         height: 101vw;
@@ -1707,19 +1638,9 @@ svg:hover {
     .icon-social-network {
         margin-bottom: 15px;
     }
-
-    .inform {
-        width: 55vw;
-        height: 7.5vw;
-    }
 }
 
 @media screen and (max-width:320px) {
-    .logo {
-        width: 44vw;
-        height: 15vw;
-    }
-
     .dropbtn {
         width: 8vw;
         height: 8vw;
@@ -1817,10 +1738,5 @@ svg:hover {
 
     .footer {
         padding: 30px;
-    }
-
-    .inform {
-        width: 55vw;
-        height: 7.5vw;
     }
 }
