@@ -249,13 +249,13 @@ html, body {
     font-size: 20px;
     font-weight: 700;
     color: #12100C;
-    background-color: #FFB0AE;
+    background-color: #FFAE33;
     border-radius: 15px;
     transition: 0.3s all ease-in-out;
 }
 
 .btn-document:hover {
-    background-color: #FFAE33;
+    background-color: #FFB0AE;
 }
 
 .box-section-right {
