@@ -18,6 +18,7 @@ for (let elm of elements) {
 new Swiper('.comments', {
     loop : true,
     slidesPerView: 3,
+    slidesPerGroup: 2,
     spaceBetween: 120,
     
     navigation: {
