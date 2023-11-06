@@ -384,6 +384,7 @@ body {
     font-size: 18px;
     overflow: hidden;
     align-items: center;
+    padding-bottom: 30px !important;
 }
 
 .swiper-slide {
