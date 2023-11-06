@@ -16,7 +16,7 @@ for (let elm of elements) {
 }
 
 new Swiper('.comments', {
-    loop : true,
+    loop : false,
     slidesPerView: 3,
     slidesPerGroup: 2,
     spaceBetween: 120,
@@ -27,6 +27,7 @@ new Swiper('.comments', {
       },
     pagination: {
         el: '.swiper-pagination',
-        type: 'bullets'
+        type: 'bullets',
+        clickable: true,
     }
 });
