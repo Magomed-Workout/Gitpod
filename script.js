@@ -29,5 +29,8 @@ new Swiper('.comments', {
         el: '.swiper-pagination',
         type: 'bullets',
         clickable: true,
-    }
+    },
+    autoplay: {
+        delay: 2500,
+    },
 });
