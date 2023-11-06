@@ -16,6 +16,10 @@ for (let elm of elements) {
 }
 
 new Swiper('.comments', {
+    loop : true,
+    slidesPerView: 3,
+    spaceBetween: 120,
+    
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
