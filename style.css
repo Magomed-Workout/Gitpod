@@ -711,7 +711,6 @@ body {
 }
 
 .git-lab-2 {
-    /* background-image: url(./img/git-lab-2.svg);  */
     background-repeat: no-repeat;
     width: 2vw;
     height: 1.7vw;
@@ -719,11 +718,6 @@ body {
 
 }
 
-/*
-.git-lab-2:hover {
-     background-image: url(./img/git-lab.svg); 
-} 
-*/
 .btn-info-0 {
     color: #fff;
     font-size: 18px;
@@ -749,18 +743,11 @@ body {
 }
 
 .git-hub-2 {
-    /* background-image: url(./img/git-hub-2.svg); */
     background-repeat: no-repeat;
     width: 2vw;
     height: 1.7vw;
     transition: 0.3s all ease-in-out;
 }
-
-/*
-.git-hub-2:hover {
-     background-image: url(./img/git-hub.svg);
-} 
-*/
 
 .btn-info-1 {
     color: #fff;
@@ -787,18 +774,11 @@ body {
 }
 
 .bitbucket-2 {
-    /* background-image: url(./img/bitbucket-2.svg); */
     background-repeat: no-repeat;
     width: 2.3vw;
     height: 1.7vw;
     transition: 0.3s all ease-in-out;
 }
-
-/*
-.bitbucket-2:hover {
-    background-image: url(./img/bitbucket.svg);
-}
-*/
 
 .btn-info-2 {
     color: #fff;
