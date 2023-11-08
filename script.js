@@ -33,4 +33,16 @@ new Swiper('.comments', {
     autoplay: {
         delay: 2500,
     },
+
+    breakpoints: {
+        400: {
+            slidesPerView: 1,
+            slidesPerGroup: 2,
+            spaceBetween: 50,
+        },
+        
+        1600: {
+            spaceBetween: 55,
+        },
+      },
 });
