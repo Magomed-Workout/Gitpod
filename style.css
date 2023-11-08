@@ -988,6 +988,14 @@ svg:hover {
         height: 1.7vw;
     }
 
+    .swiper-horizontal {
+        width: 1490px;
+    }
+
+    .swiper-slide {
+        width: 370px !important;
+    }
+
     .block-flex {
         flex-wrap: wrap;
     }
@@ -1989,6 +1997,15 @@ svg:hover {
 
     .cont-4-title {
         font-size: 35px;
+    }
+
+    
+    .swiper-horizontal {
+        width: 347px;
+    }
+
+    .swiper-slide {
+        max-width: 260px !important;
     }
 
     .cont-5-title {
